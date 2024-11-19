@@ -1,0 +1,61 @@
+body{
+    background-color: #ff758f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh; /* Makes it fill the viewport height */
+}
+
+.polo{
+    background-color: whitesmoke;
+    display: inline-block;
+}
+
+.isi{
+    background-color: whitesmoke;
+    display: inline-block;
+}
+
+.isidua{
+    background-color: whitesmoke;
+    display: inline-block;
+}
+
+.isitiga{
+    background-color: whitesmoke;
+    display: inline-block;
+}
+
+.end {
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    text-align: center; /* Ensures text within the paragraph is centered */
+    margin: 0; /* Removes any default margin */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Optional: Set a clean font */
+    background-color: whitesmoke;
+}
+
+.pop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.button{
+    font-size: 25px;
+    background-color: #e6a7b3;
+    color: black;
+    border-radius: 25px;
+    border: none; /* Optional: Remove border */
+    padding: 10px 20px; /* Add padding for better aesthetics */
+    cursor: pointer; /* Pointer cursor for better UX */
+    text-align: center; /* Center text inside the button */
+}
+
+.gambar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    overflow-x: auto;
+    max-width: 100%;
+    height: auto;
+}
